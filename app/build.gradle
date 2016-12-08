@@ -28,4 +28,5 @@ dependencies {
     compile 'com.android.support:design:24.2.0'
     testCompile 'junit:junit:4.12'
     compile 'com.orhanobut:logger:1.15'
+    compile 'org.json:org.json:chargebee-1.0'
 }

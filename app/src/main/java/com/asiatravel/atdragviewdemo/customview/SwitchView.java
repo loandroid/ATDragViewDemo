@@ -146,6 +146,11 @@ public class SwitchView extends View {
                     moveX = viewWidth - strockRadio;
                 }
                 swichBallx = moveX;
+//                if (moveX > viewWidth / 2) {
+//                    setOpenState(true);
+//                } else {
+//                    setOpenState(false);
+//                }
                 break;
             case MotionEvent.ACTION_UP:
                 int upX = (int) event.getX();
